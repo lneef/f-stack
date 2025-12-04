@@ -27,7 +27,7 @@
 #include <unistd.h>
 #include <sys/mman.h>
 #include <errno.h>
-
+#include <stdlib.h>
 #include <rte_common.h>
 #include <rte_byteorder.h>
 #include <rte_log.h>

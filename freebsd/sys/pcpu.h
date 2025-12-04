@@ -206,7 +206,7 @@ struct pcpu {
 	 * reason not to keep the offsets of the MI fields constant
 	 * if only to make kernel debugging easier.
 	 */
-	PCPU_MD_FIELDS;
+	PCPPCPU_MD_FIELDSU_MD_FIELDS;
 } __aligned(CACHE_LINE_SIZE);
 
 #ifdef _KERNEL
