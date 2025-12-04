@@ -37,6 +37,8 @@ __FBSDID("$FreeBSD$");
 /*
  * Find Last Set bit
  */
+
+#ifndef HAVE_INLINE_FLSL 
 int
 flsl(long mask)
 {
@@ -48,3 +50,4 @@ flsl(long mask)
 		mask = (unsigned long)mask >> 1;
 	return (bit);
 }
+#endif
