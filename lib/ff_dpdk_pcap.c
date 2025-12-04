@@ -27,7 +27,7 @@
 #include <sys/time.h>
 #include <unistd.h>
 #include <errno.h>
-
+#include <stdlib.h>
 #include "ff_dpdk_pcap.h"
 #define FILE_PATH_LEN 64
 #define PCAP_FILE_NUM 10
